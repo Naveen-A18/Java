@@ -82,4 +82,6 @@ public class AddMatrics {
             System.out.println();
         }
     }
+    system.out.println("addition of matrics completed");
 }
+
