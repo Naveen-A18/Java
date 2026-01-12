@@ -1,7 +1,5 @@
 // Outer class
 class OuterClass {
-
-    // Outer class method
     void display() {
         System.out.println("This is the display method of the Outer class.");
     }
@@ -28,3 +26,4 @@ public class MainClass {
         in.display();   // Calling the inner class's display method
     }
 }
+
