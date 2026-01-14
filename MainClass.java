@@ -24,5 +24,9 @@ public class MainClass {
         out.display();  // Calling the outer class's display method
 
         // Creating an instance of the inner class
- 
+              OuterClass.InnerClass in = out.new InnerClass();
+        in.display();   // Calling the inner class's display method
+    }
+}
+
 
