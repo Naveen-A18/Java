@@ -79,9 +79,10 @@ public class AddMatrics {
             for (int value : row) {
                 System.out.print(value + "\t");
             }
-            System.out.println();
+            
         }
     }
 }
+
 
 
