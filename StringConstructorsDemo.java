@@ -12,8 +12,7 @@ public class StringConstructorsDemo {
         System.out.println("String created from a character array: " + strFromArray); 
  
         // Constructor 3: Creating a string from a subset of a character array 
-        String strFromArraySubset = new String(charArray, 0, 3); // Start from index 0 and take 3 
-characters 
+        String strFromArraySubset = new String(charArray, 0, 3); // Start from index 0 and take 3 characters 
         System.out.println("String created from a subset of a character array: " + strFromArraySubset); 
  
         // Constructor 4: Creating a string from another string 
