@@ -19,3 +19,22 @@ public class StringConstructorsDemo {
         String originalStr = "Information Science and Engineering"; 
         String copiedStr = new String(originalStr); 
         System.out.println("String created from another string: " + copiedStr); 
+
+        // Constructor 5: Creating a string using StringBuilder 
+        StringBuilder stringBuilder = new StringBuilder("Acharya"); 
+        String strFromBuilder = new String(stringBuilder); 
+        System.out.println("String created using StringBuilder: " + strFromBuilder); 
+ 
+        // Constructor 6: Creating a string from byte array using specific charset 
+        byte[] byteArray = {65, 99, 104, 97, 114, 121, 97}; // ASCII values for "Acharya" 
+        String strFromByteArray = new String(byteArray); 
+        System.out.println("String created from byte array: " + strFromByteArray); 
+ 
+        // Constructor 7: Creating a string from byte array using specific charset 
+        byte[] byteArrayUTF8 = {65, 99, 104, 97, 114, 121, 97}; // ASCII values for "Acharya" 
+        String strFromByteArrayUTF8 = new String(byteArrayUTF8, 
+java.nio.charset.StandardCharsets.UTF_8); 
+        System.out.println("String created from byte array with UTF-8 charset: " + 
+strFromByteArrayUTF8); 
+    } 
+} 
